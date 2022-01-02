@@ -1,0 +1,38 @@
+#  ███╗░░░███╗███████╗░█████╗░██╗░░██╗░█████╗░███╗░░██╗██╗░█████╗░░██████╗
+#  ████╗░████║██╔════╝██╔══██╗██║░░██║██╔══██╗████╗░██║██║██╔══██╗██╔════╝
+#  ██╔████╔██║█████╗░░██║░░╚═╝███████║███████║██╔██╗██║██║██║░░╚═╝╚█████╗░
+#  ██║╚██╔╝██║██╔══╝░░██║░░██╗██╔══██║██╔══██║██║╚████║██║██║░░██╗░╚═══██╗
+#  ██║░╚═╝░██║███████╗╚█████╔╝██║░░██║██║░░██║██║░╚███║██║╚█████╔╝██████╔╝
+#  ╚═╝░░░░░╚═╝╚══════╝░╚════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝╚═╝░╚════╝░╚═════╝░
+
+amplifiers:
+  speed: 2
+
+  # To decrease the velocity, choose an amount between 0 and 1.
+  # To increase the velocity, choose an amount greater than 1
+  slime: 0.4
+
+  piston: 0.4
+
+  jump-boost: 2
+
+  purpur:
+    # ticks
+    time: 100
+    amplifier: 2
+
+  terracotta:
+
+    speed: 2
+    slow: 2
+
+  warped-planks:
+    # ticks
+    crimson-planks: 20
+    air: 20
+    back-warped: 30
+
+whitelisted-worlds:
+  - "world"
+  - "world_the_end"
+

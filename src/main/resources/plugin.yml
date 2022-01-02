@@ -1,0 +1,14 @@
+name: FallGuysMechanics
+version: '${project.version}'
+main: me.shreyasayyengar.fallguysmechanics.FallGuysMechanicsPlugin
+api-version: 1.17
+prefix: FallGuysMechanics
+authors: [ ShreyasAyyengar ]
+description: A plugint that modifies world, block and player game mechanics
+
+commands:
+  fallguysreload:
+
+permissions:
+  fallguysmechanics.reload:
+    description: Allows a user to reload the config.yml
